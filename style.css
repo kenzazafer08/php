@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    font-style: 'Roboto', sans-serif;
+    transition: all 400ms ease-in-out;
+}
+.home{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: darkred;
+    font-size: 30px;
+}
+.header{
+    width: 70%;
+    height: 60%;
+    background-image: url('OIP.png');
+    background-size: cover;
+    border-radius: 10px 10px 100px 10px;
+    box-shadow: 5px 5Px 5px 5px #999 ;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    color: darkred;
+    border: solid darkred;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    color: white;
+    background-color: darkred;
+}
+#formulaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.center{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ form h1 {
+    color: darkred;
+    font-size: 20px;
+    border-bottom: solid darkred;
+    width: 100%;
+    text-align: center;
+ }
+ #name{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+#name input{
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(188, 188, 188);
+    border-radius: 5px;
+ }
+ #info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+ #info input{
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(188, 188, 188);
+    border-radius: 5px;
+    width: 85%;
+ }
+ textarea{
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(188, 188, 188);
+    border-radius: 5px;
+    width: 85%;
+ }
+ #F{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+ #F input{
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(188, 188, 188);
+    border-radius: 5px;
+    width: 85%;
+ }
+ #E{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ }
+ #E input{
+    padding: 8px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(188, 188, 188);
+    border-radius: 5px;
+    width: 85%;
+ }
+ .button2{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: darkred;
+    border-radius: 5px;
+    border: solid darkred;
+ }
+ .button2:hover{
+    color: darkred;
+    background-color: white;
+ }
+ .info{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+    font-size: 16px;
+   font-weight: bold;
+ }
+ .cv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 50%;
+   background-color: white;
+   border-radius: 20px;
+   padding: 10px;
+ }
+ .cv p{
+   padding: 10px;
+ }
+ .cv h1{
+   color: darkred;
+   font-size: 20px;
+   border-bottom: solid darkred;
+   width: 100%;
+   text-align: center;
+ }
+ .exp{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   background-color: white;
+   border-radius: 20px;
+   padding: 10px;
+   font-size: 16px;
+   font-weight: bold;
+ }
+ .Edu{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   background-color: white;
+   border-radius: 20px;
+   padding: 10px;
+   font-size: 16px;
+   font-weight: bold;
+ }
