@@ -23,6 +23,9 @@ header{
 header a:hover{
    color: #0384EE;
 }
+header a{
+    color: #000000;
+ }
 .nav a{
     text-decoration: none;
     margin: 10px;
@@ -78,7 +81,7 @@ footer {
     text-align: center;
     height: 100px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,6 +112,7 @@ input[type="text"] {
     border-radius: 5px;
     border: none;
 }
+
 input:focus,active{
 border: none;
 }
@@ -135,25 +139,28 @@ a{
     align-items: center;
     max-width: 600px;
 }
+.contact .text h1{
+color: #ffffff;
+    width: 22ch;
+     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    text-shadow: #f2f2f2 0px 1px;
+}
 .active {
     background-color: #717171;
   }
   
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
   .mySlides {display: none;}
   .mySlides img {vertical-align: middle;
 height: 400PX;
 width: 600px;
 border-radius: 5px;
 box-shadow: #717171 0px 3px 12px;}
-  @keyframes fade {
-    from {opacity: .8} 
-    to {opacity: 1}
-  }
+ 
 .contact .form{
     width: 700px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px;
@@ -167,7 +174,7 @@ box-shadow: #717171 0px 3px 12px;}
 .form input{
     padding: 10px;
     border: none;
-    background-color: rgb(229, 229, 229);
+    background-color: rgba(220,220,220, 0.1);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px;
     margin: 20px;
     width: 90%;
@@ -175,15 +182,17 @@ box-shadow: #717171 0px 3px 12px;}
 .form textarea{
     padding: 10px;
     border: none;
-    background-color: rgb(229, 229, 229);
+    background-color: rgba(220,220,220, 0.1);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px;
     margin: 20px;
     color: #888;
     width: 90%;
 }
+
 button{
     width: 100px;
     margin-left: 2%;
+    margin-top: 10px;
     height: 40px;
     background-color: #0384EE;
     color: white;
@@ -203,7 +212,6 @@ button:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
     margin: 20px;
     width: 40%;
     margin-left: 30%;
@@ -211,6 +219,7 @@ button:hover{
     box-shadow: rgb(213, 208, 208) 0px 3px 8px;
     margin-top: 8%;
     border-radius: 5px;
+    padding: 20px;
   }
   .container form{
     display: flex;
@@ -238,6 +247,24 @@ button:hover{
     background-color: transparent;
     width: 60%;
   }
+  .container form textarea{
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-bottom: #0384EE solid;
+    background-color: transparent;
+    width: 60%;
+    color: #888;
+}
+  .container form select{
+    margin: 10px;
+    padding: 15px;
+    border: #ffffff solid;
+    border-bottom: #0384EE solid;
+    background-color: transparent;
+    width: 60%;
+    color: #888;
+  }
   .container h1{
     color: #0e78cf;
     width: 22ch;
@@ -261,3 +288,40 @@ button:hover{
     }
   }
 .footer-social i:hover{color: #0384EE;}
+span{
+    padding: 6px 20px;
+    background-color: #0384EE;
+    box-shadow: #b1b1b1 0px 3px 8px;
+    margin: 10px;
+    color: #ffffff;
+    border: #0384EE solid;
+}
+span:hover{
+    padding: 6px 20px;
+    background-color: #ffffff;
+    color: #0384EE;
+}
+.span{
+    padding: 6px 20px;
+    background-color: #0384EE;
+    box-shadow: #b1b1b1 0px 3px 8px;
+    margin: 10px;
+    color: #ffffff;
+    border: #0384EE solid;
+    text-decoration: none;
+}
+.span:hover{
+    padding: 6px 20px;
+    background-color: #ffffff;
+    color: #0384EE;
+}
+.cont{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+td{
+    min-width: 80px;
+}
