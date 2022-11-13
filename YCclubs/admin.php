@@ -72,7 +72,13 @@ if (!isset($_SESSION['loggedin'])) {
        <td>'. $row["categorie"] .'</td>
        <td>'. $row["date"] .'</td>
         <td>'. $row["discription"] .'</td>
-        <td ><a class="span" href="deleteclub.php?id='. $row["id"].'"><i class="fa fa-remove"></i></a><a class="span" href="update.php?id='. $row["id"].'"><i class="fa fa-pencil" aria-hidden="true" ></i></span></td> 
+        <td ><div class="dropdown">
+        <a class="span" ><i class="fa fa-remove"></i></a>
+        <div class="dropdown-content">
+        <p>Sure you wanna delete it</p>
+          <a href="deleteclub.php?id='. $row["id"].'">Delete</a>
+        </div>
+       </div> </a><a class="span" href="update.php?id='. $row["id"].'"><i class="fa fa-pencil" aria-hidden="true" ></i></span></td> 
         </tr>';
 }} else {
   echo "0 results";

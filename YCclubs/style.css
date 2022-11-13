@@ -339,9 +339,12 @@ td{
     z-index: 1;
     color: #0384EE;
   }
-  
+  .dropdown-content p {
+    font-weight: 300;
+    color: #000000;
+  }
   .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
-    height: 100px;
+    min-height: 100px;
   }

@@ -79,7 +79,12 @@ if (!isset($_SESSION['loggedin'])) {
                 <td>'. $row["class"] .'</td>
                 <td>'. $row["age"] .' ans</td>
                  <td>'. $row["role"] .'</td>
-                 <td >'. $row["club"].' <a href="deletemembre.php?id='. $row["id"].'" style="float:right; color:black"><i class="fa fa-remove"></i></a> </td> 
+                 <td >'. $row["club"].' <div class="dropdown"style="float:right;>
+                 <a  color:black"><i class="fa fa-remove"></i></a>
+                 <div class="dropdown-content" style="with:80px; right: 10px; bottum : 200px">
+                 <p>Remove '. $row["name"] .' from  '. $row["club"].'</p>
+                   <a href="deletemembre.php?id='. $row["id"].'">Remove</a>
+                 </div> </td> 
                  </tr>';
             }   
 }} else {

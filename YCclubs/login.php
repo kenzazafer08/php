@@ -12,9 +12,9 @@
 <body>
     <div class="container">
         <h1>YC Clubs Admin</h1>
-        <form action="authentification.php" method="POST">
-                <input placeholder="Username"  name="username" required/>
-                <input placeholder="Password" type="password"  name="password" required/>
+        <form action="authentification.php" method="POST" ">
+                <input placeholder="Username"  name="username" />
+                <input placeholder="Password" type="password"  name="password"/>
                 <br>
                 <button name="submit" type="submit">Sign In</button>
         </form>
