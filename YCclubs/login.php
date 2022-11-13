@@ -12,13 +12,13 @@
 <body>
     <div class="container">
         <h1>YC Clubs Admin</h1>
-        <form action="admin.html">
-                <input placeholder="Username"  />
-                <input placeholder="Password"  />
+        <form action="authentification.php" method="POST">
+                <input placeholder="Username"  name="username" required/>
+                <input placeholder="Password" type="password"  name="password" required/>
                 <br>
-                <button>Sign In</button>
-        </form> 
-        <a href="index.html">Go back</a>
+                <button name="submit" type="submit">Sign In</button>
+        </form>
+        <a href="index.php">Go back</a>
     </div>
 </body>
 </html>
